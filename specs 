@@ -4,14 +4,17 @@ Non-alphabetical characters, do nothing.
 Example Input: 3
 Example Output: 3
 
+DONE
 Single-letter, lowercase vowels, add "ay" to end.
 Example Input: e
 Example Output: eay
 
+DONE
 Single-letter consonants, "ay" added to end of word.
 Example Input: c
 Example Output: cay
 
+DONE
 Multiple-letter words beginning with a vowel, add "ay".
 Example Input: ear
 Example Output: earay
