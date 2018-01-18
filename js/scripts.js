@@ -9,7 +9,10 @@ $(document).ready(function() {
   inputArray.forEach(function(x){
     if ((x === "a") || (x === "e") || (x === "i") || (x === "o") || (x === "u"))  {
         $("#new-sentence").text(aySingle);
-    } else if (()
+    } else if ((x !== "a") || (x !== "e") || (x !== "i") || (x !== "o") || (x !== "u")) {
+        $("#new-sentence").text(aySingle);
+    }
+    
   });
 
   console.log();
