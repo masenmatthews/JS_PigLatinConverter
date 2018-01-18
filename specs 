@@ -4,7 +4,7 @@ Non-alphabetical characters, do nothing.
 Example Input: 3
 Example Output: 3
 
-Single-letter vowels, add "ay" to end.
+Single-letter, lowercase vowels, add "ay" to end.
 Example Input: e
 Example Output: eay
 
@@ -18,7 +18,7 @@ Example Output: earay
 
 Multiple-letter words beginning with consonant, first consonant to end, THEN add "ay".
 Example Input: complex
-Example Output: omplexcay 
+Example Output: omplexcay
 
 
 
