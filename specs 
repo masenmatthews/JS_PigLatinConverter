@@ -1,0 +1,28 @@
+Specs
+
+Non-alphabetical characters, do nothing.
+Example Input: 3
+Example Output: 3
+
+Single-letter vowels, add "ay" to end.
+Example Input: e
+Example Output: eay
+
+Single-letter consonants, "ay" added to end of word.
+Example Input: c
+Example Output: cay
+
+Multiple-letter words beginning with a vowel, add "ay".
+Example Input: ear
+Example Output: earay
+
+Multiple-letter words beginning with consonant, first consonant to end, THEN add "ay".
+Example Input: complex
+Example Output: omplexcay 
+
+
+
+FOR LATER
+
+If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where "qu" doesn't come first!
+For words beginning with "y", treat "y" as a consonant.
